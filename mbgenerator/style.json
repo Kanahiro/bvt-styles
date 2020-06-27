@@ -1,0 +1,24 @@
+{
+    "version": 8,
+    "sources": {
+        "mvt": {
+            "type": "vector",
+            "tiles": [
+                "http://localhost:8000/pbf/{z}/{x}/{y}.pbf"
+            ]
+        }
+    },
+    "layers": [
+        {
+            "id": "road11_57ef6bbc_dc23_43a0_ba04_38aece5c9559",
+            "source": "mvt",
+            "source-layer": "road11",
+            "type": "line",
+            "paint": {
+                "line-color": "#b7484b",
+                "line-width": 1,
+                "line-opacity": 1.0
+            }
+        }
+    ]
+}
