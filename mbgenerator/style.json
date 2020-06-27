@@ -4,7 +4,7 @@
         "mvt": {
             "type": "vector",
             "tiles": [
-                "http://localhost:8000/pbf/{z}/{x}/{y}.pbf"
+                "https://kanahiro.github.io/bvt-styles/mbgenerator/pbf/{z}/{x}/{y}.pbf"
             ]
         }
     },
