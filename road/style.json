@@ -1,0 +1,39 @@
+{
+    "version": 8,
+    "sources": {
+        "\u5730\u7406\u9662\u30aa\u30eb\u30bd_df602962_c3e8_49ad_8228_f67aaef36090": {
+            "type": "raster",
+            "tiles": [
+                "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/{z}/{x}/{y}.jpg"
+            ],
+            "tileSize": 256
+        },
+        "mvt": {
+            "type": "vector",
+            "tiles": [
+                "https://kanahiro.github.io/bvt-styles/road/pbf/{z}/{x}/{y}.pbf"
+            ]
+        }
+    },
+    "layers": [
+        {
+            "id": "\u5730\u7406\u9662\u30aa\u30eb\u30bd_df602962_c3e8_49ad_8228_f67aaef36090",
+            "source": "\u5730\u7406\u9662\u30aa\u30eb\u30bd_df602962_c3e8_49ad_8228_f67aaef36090",
+            "type": "raster",
+            "paint": {
+                "raster-opacity": 1.0
+            }
+        },
+        {
+            "id": "shibetsu_road_f3d2c001_4f11_48a2_88ea_b3e83da190d1",
+            "source": "mvt",
+            "source-layer": "shibetsu_road",
+            "type": "line",
+            "paint": {
+                "line-color": "#ffffff",
+                "line-width": 1,
+                "line-opacity": 1.0
+            }
+        }
+    ]
+}
